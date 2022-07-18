@@ -1,18 +1,25 @@
 <template>
   <div id="app">
     <HeaderComponent :menuLinks="navLinks" />
+    <main>
+      <SectionSpecialties/>
+
+    </main>
+    
     
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import SectionSpecialties from './components/SectionSpecialties.vue'
 
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
+    SectionSpecialties,
     
   },
 
@@ -67,5 +74,6 @@ export default {
 
 <style lang="scss">
 @import './style/common';
+
 
 </style>
