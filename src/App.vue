@@ -2,7 +2,8 @@
   <div id="app">
     <HeaderComponent :menuLinks="navLinks" />
     <main>
-      <SectionSpecialties/>
+      <SectionSpecialties />
+      <SectionTeam />
 
     </main>
     
@@ -13,6 +14,7 @@
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import SectionSpecialties from './components/SectionSpecialties.vue'
+import SectionTeam from './components/SectionTeam.vue'
 
 
 export default {
@@ -20,6 +22,7 @@ export default {
   components: {
     HeaderComponent,
     SectionSpecialties,
+    SectionTeam
     
   },
 
