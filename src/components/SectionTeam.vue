@@ -60,6 +60,7 @@ section{
     .left-col{
         width: 55%;
         display: inline-block;
+        position: relative;
 
         img{
             width: 100%;
@@ -74,8 +75,8 @@ section{
         padding: 50px 0px;
         padding-left: 30px;
         padding-right: 50px;
-        position: relative;
-        transform: translate(-20%, -50%);
+        position: absolute;
+        transform: translate(-15%, 15%);
         z-index: 1;
         h3{
             font-size: 35px;

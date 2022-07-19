@@ -4,6 +4,7 @@
     <main>
       <SectionSpecialties />
       <SectionTeam />
+      <SectionEvents />
 
     </main>
     
@@ -15,6 +16,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import SectionSpecialties from './components/SectionSpecialties.vue'
 import SectionTeam from './components/SectionTeam.vue'
+import SectionEvents from './components/SectionEvents.vue'
 
 
 export default {
@@ -22,7 +24,8 @@ export default {
   components: {
     HeaderComponent,
     SectionSpecialties,
-    SectionTeam
+    SectionTeam,
+    SectionEvents,
     
   },
 
