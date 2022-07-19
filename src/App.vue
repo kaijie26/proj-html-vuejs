@@ -8,6 +8,7 @@
       <SectionAnalytics />
       <SectionNews />
       <SectionTestimonials />
+      <SectionVideo />
 
     </main>
     
@@ -23,6 +24,7 @@ import SectionEvents from './components/SectionEvents.vue'
 import SectionAnalytics from './components/SectionAnalytics.vue'
 import SectionNews from './components/SectionNews.vue'
 import SectionTestimonials from './components/SectionTestimonials.vue'
+import SectionVideo from './components/SectionVideo.vue'
 
 export default {
   name: 'App',
@@ -34,6 +36,7 @@ export default {
     SectionAnalytics,
     SectionNews,
     SectionTestimonials,
+    SectionVideo,
     
   },
 
