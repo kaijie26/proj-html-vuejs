@@ -6,6 +6,7 @@
       <SectionTeam />
       <SectionEvents />
       <SectionAnalytics />
+      <SectionNews />
 
     </main>
     
@@ -19,7 +20,7 @@ import SectionSpecialties from './components/SectionSpecialties.vue'
 import SectionTeam from './components/SectionTeam.vue'
 import SectionEvents from './components/SectionEvents.vue'
 import SectionAnalytics from './components/SectionAnalytics.vue'
-
+import SectionNews from './components/SectionNews.vue'
 
 export default {
   name: 'App',
@@ -29,6 +30,7 @@ export default {
     SectionTeam,
     SectionEvents,
     SectionAnalytics,
+    SectionNews,
     
   },
 
