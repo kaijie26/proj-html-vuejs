@@ -14,13 +14,13 @@
                         </p>
                         <!-- Social-Icons -->
                         <div class="social-icons">
-                            <div>
+                            <div class="social">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
-                            <div>
+                            <div class="social">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </div>
-                            <div>
+                            <div class="social">
                                 <i class="fa-brands fa-twitter"></i>
                             </div>
 
@@ -182,7 +182,7 @@ footer{
                 margin-top: 20px;
                 display: flex;
 
-                div{
+                .social{
                     background-color: white;
                     color: black;
                     margin-right: 5px;
@@ -192,6 +192,7 @@ footer{
                     width: 25px;
                     height: 25px;
                 }
+
             }
 
             .twitter-contact{
@@ -246,6 +247,13 @@ footer{
         font-size: 13px;
 
     }
+
+    // HOVER
+   .social-icons:hover .social{
+        background-color: #ff4612;
+        cursor: pointer;
+    }
+
 }
 
 </style>

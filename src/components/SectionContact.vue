@@ -58,11 +58,21 @@
             
             <!-- Icons -->
             <div class="icons">
-                <img src="../assets/img/h4-clients-img-03.png" alt="">
-                <img src="../assets/img/h4-clients-img-05.png" alt="">
-                <img src="../assets/img/h4-clients-img-07.png" alt="">
-                <img src="../assets/img/h4-clients-img-09.png" alt="">
-                <img src="../assets/img/h4-clients-img-01.png" alt="">
+                <div class="default">
+                    <img src="../assets/img/h4-clients-img-03.png" alt="">
+                    <img src="../assets/img/h4-clients-img-05.png" alt="">
+                    <img src="../assets/img/h4-clients-img-07.png" alt="">
+                    <img src="../assets/img/h4-clients-img-09.png" alt="">
+                    <img src="../assets/img/h4-clients-img-01.png" alt="">
+                </div>
+                <div class="hovered">
+                    <img src="../assets/img/h4-clients-img-04-1.png" alt="">
+                    <img src="../assets/img/h4-clients-img-06-1.png" alt="">
+                    <img src="../assets/img/h4-clients-img-08-1.png" alt="">
+                    <img src="../assets/img/h4-clients-img-10-1.png" alt="">
+                    <img src="../assets/img/h4-clients-img-02.png" alt="">
+
+                </div>
             </div>
 
         </div>
@@ -83,19 +93,6 @@ export default {
 section{
     padding: 120px 0;
     background-color: #fafafa;
-
-    .icons{
-        padding-top: 80px;
-        img{
-           padding-right: 100px;
-            
-        } 
-    }
-
-    .icons :last-child{
-        padding-right: 0;
-    }
-
     .wrapper{
         display: flex;
     }
@@ -171,9 +168,49 @@ section{
                 color: white;
             }
         }
+
+        
     }
 
-    
+    .icons{
+        padding-top: 80px;
+        position: relative;
+        .default{
+
+            img{
+                padding-right: 100px;
+            }
+        }
+
+        .default :last-child{
+            padding-right: 0;
+        }
+
+        .hovered{
+            position: absolute;
+            top: 52%;
+            left: 0%;
+            display: none;
+
+            img{
+                padding-right: 100px;
+
+            }
+        }
+
+        .hovered :last-child{
+            padding-right: 0;
+        }
+        
+    }
+
+    //HOVER
+    .hovered:hover{
+        display: block;
+        cursor: pointer;
+    }
+
+
 }
 
 </style>

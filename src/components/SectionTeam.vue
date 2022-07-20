@@ -19,13 +19,13 @@
                 </div>
                 <!-- Social-Icons -->
                 <div class="social-icons">
-                    <div>
+                    <div class="social">
                         <i class="fab fa-linkedin-in"></i>
                     </div>
-                    <div>
+                    <div class="social">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div>
+                    <div class="social">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
 
@@ -56,6 +56,7 @@ export default {
 section{
     background-color: #fafafa;
     position: relative;
+    padding: 120px 0;
 
     .left-col{
         width: 55%;
@@ -103,6 +104,12 @@ section{
     .donuts{
         position: absolute;
         transform: translate(150%,-120%);
+    }
+
+    //HOVER
+    .social-icons:hover .social {
+        background-color: black;
+        cursor: pointer;
     }
 }
 

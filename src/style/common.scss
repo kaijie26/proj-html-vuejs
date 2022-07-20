@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 *{
     padding: 0;
     margin: 0;
@@ -25,7 +27,7 @@ ul{
 .subtitle-point{
     font-size: 7px;
     line-height: 30px;
-    color: #ff4612;
+    color: $page_primary_color;
     display: inline-block;
     margin-left: 2px;
            
@@ -35,7 +37,7 @@ ul{
    content: '';
    width: 50px;
    height: 2px;
-   background-color: #ff4612;
+   background-color: $page_primary_color;
    margin: 20px;
    display: inline-block;    
 }
@@ -44,7 +46,7 @@ ul{
    content: '';
    width: 60px;
    height: 2px;
-   background-color: #ff4612;
+   background-color: $page_primary_color;
    margin: 10px 0;
    display: inline-block;   
 }

@@ -225,6 +225,12 @@ section{
 
     }
 
+    //HOVER
+    .single-event:hover h4{
+        color: #ff4612;
+        cursor: pointer;
+    }
+
 }
 
 </style> 
