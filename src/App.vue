@@ -10,10 +10,9 @@
       <SectionTestimonials />
       <SectionVideo />
       <SectionContact />
-
     </main>
-    
-    
+    <FooterComponent />
+
   </div>
 </template>
 
@@ -27,6 +26,7 @@ import SectionNews from './components/SectionNews.vue'
 import SectionTestimonials from './components/SectionTestimonials.vue'
 import SectionVideo from './components/SectionVideo.vue'
 import SectionContact from './components/SectionContact.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 export default {
   name: 'App',
@@ -40,6 +40,7 @@ export default {
     SectionTestimonials,
     SectionVideo,
     SectionContact,
+    FooterComponent,
     
   },
 
