@@ -9,6 +9,7 @@
       <SectionNews />
       <SectionTestimonials />
       <SectionVideo />
+      <SectionContact />
 
     </main>
     
@@ -25,6 +26,7 @@ import SectionAnalytics from './components/SectionAnalytics.vue'
 import SectionNews from './components/SectionNews.vue'
 import SectionTestimonials from './components/SectionTestimonials.vue'
 import SectionVideo from './components/SectionVideo.vue'
+import SectionContact from './components/SectionContact.vue'
 
 export default {
   name: 'App',
@@ -37,6 +39,7 @@ export default {
     SectionNews,
     SectionTestimonials,
     SectionVideo,
+    SectionContact,
     
   },
 
